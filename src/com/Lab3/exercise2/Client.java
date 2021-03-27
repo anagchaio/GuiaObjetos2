@@ -5,7 +5,6 @@ public class Client {
     private String name;
     private String email;
     private Double discount;
-    private String test1;
 
     public Client(String name, String email, Double discount) {
         this.id = UUID.randomUUID();
